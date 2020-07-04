@@ -130,7 +130,6 @@ class eightbyeightQueen:
             count +=1
             if self.goalIndex >= 0 :
                 try:
-                    print(count)
                     return self.goal
                 except IndexError:
                     print(self.goalIndex)
